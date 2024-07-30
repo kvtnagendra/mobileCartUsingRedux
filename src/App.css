@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.left-top h1 {
+  margin: 0;
+}
+
+.right-top button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.right-top button:hover {
+  background-color: #21a1f1;
+}
+
+.content {
+  padding: 20px;
+}
+
+.home-container {
+  padding: 20px;
+  text-align: left;
+}
+
+.home-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.home-container h2 {
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.home-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+
+.home-container ul li {
+  margin-bottom: 10px;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.get-started-button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.get-started-button:hover {
+  background-color: #21a1f1;
+}
+body {
+  background-color: #9A616D;
+}
+
+
+@media (max-width: 767.98px) {
+  .border-sm-start-none {
+    border-left: none !important;
+  }
+}
